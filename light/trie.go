@@ -20,11 +20,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/trie"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/trie"
 )
 
 func NewState(ctx context.Context, head *types.Header, odr OdrBackend) *state.StateDB {

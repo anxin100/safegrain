@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/math"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/math"
 )
 
 // calculates the memory size required for a step

@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/mclock"
-	"github.com/meitu/go-ethereum/consensus"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/light"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/mclock"
+	"github.com/safegrain/consensus"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/light"
+	"github.com/safegrain/log"
 )
 
 const (

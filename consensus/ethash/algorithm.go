@@ -26,11 +26,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/bitutil"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/crypto/sha3"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/bitutil"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/crypto/sha3"
+	"github.com/safegrain/log"
 )
 
 const (

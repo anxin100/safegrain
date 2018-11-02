@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/eth/downloader"
-	"github.com/meitu/go-ethereum/light"
+	"github.com/safegrain/core"
+	"github.com/safegrain/eth/downloader"
+	"github.com/safegrain/light"
 )
 
 const (

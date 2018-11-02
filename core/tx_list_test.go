@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

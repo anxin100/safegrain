@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
+	"github.com/safegrain/common"
 )
 
 type journalEntry interface {

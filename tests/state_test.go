@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/meitu/go-ethereum/core/vm"
+	"github.com/safegrain/core/vm"
 )
 
 func TestState(t *testing.T) {

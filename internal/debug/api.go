@@ -33,7 +33,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/log"
 )
 
 // Handler is the global debugging handler.

@@ -24,12 +24,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/contracts/ens"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/swarm/network"
-	"github.com/meitu/go-ethereum/swarm/services/swap"
-	"github.com/meitu/go-ethereum/swarm/storage"
+	"github.com/safegrain/common"
+	"github.com/safegrain/contracts/ens"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/swarm/network"
+	"github.com/safegrain/swarm/services/swap"
+	"github.com/safegrain/swarm/storage"
 )
 
 const (

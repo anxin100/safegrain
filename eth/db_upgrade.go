@@ -21,11 +21,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/log"
+	"github.com/safegrain/rlp"
 )
 
 var deduplicateData = []byte("dbUpgrade_20170714deduplicateData")

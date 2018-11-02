@@ -21,12 +21,12 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/eth/downloader"
-	"github.com/meitu/go-ethereum/eth/gasprice"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/core"
+	"github.com/safegrain/eth/downloader"
+	"github.com/safegrain/eth/gasprice"
+	"github.com/safegrain/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

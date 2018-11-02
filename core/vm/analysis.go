@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
+	"github.com/safegrain/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

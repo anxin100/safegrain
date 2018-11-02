@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common"
+	"github.com/safegrain/common"
 )
 
 const (

@@ -19,11 +19,11 @@ package node
 import (
 	"reflect"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/event"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

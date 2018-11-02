@@ -23,15 +23,15 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/bitutil"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/rlp"
-	"github.com/meitu/go-ethereum/trie"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/bitutil"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/log"
+	"github.com/safegrain/params"
+	"github.com/safegrain/rlp"
+	"github.com/safegrain/trie"
 )
 
 const (

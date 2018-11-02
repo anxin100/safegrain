@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/event"
+	"github.com/safegrain/rpc"
 )
 
 var (

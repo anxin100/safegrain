@@ -7,9 +7,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/common/math"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/common/math"
 )
 
 var _ = (*genesisAccountMarshaling)(nil)

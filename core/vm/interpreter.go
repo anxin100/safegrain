@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/math"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/math"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/params"
 )
 
 // Config are the configuration options for the Interpreter

@@ -19,14 +19,14 @@ package core
 import (
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/consensus"
-	"github.com/meitu/go-ethereum/consensus/misc"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/core/vm"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/consensus"
+	"github.com/safegrain/consensus/misc"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/core/vm"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

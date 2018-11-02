@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/consensus/ethash"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/core/vm"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/consensus/ethash"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/core/vm"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/params"
 )
 
 type testTxRelay struct {

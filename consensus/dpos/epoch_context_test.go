@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/trie"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/trie"
 
 	"github.com/stretchr/testify/assert"
 )

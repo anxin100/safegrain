@@ -22,11 +22,11 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/consensus/ethash"
-	"github.com/meitu/go-ethereum/core/vm"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/consensus/ethash"
+	"github.com/safegrain/core/vm"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/params"
 )
 
 func TestSetupGenesis(t *testing.T) {

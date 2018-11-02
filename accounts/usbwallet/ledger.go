@@ -28,12 +28,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/log"
+	"github.com/safegrain/rlp"
 )
 
 // ledgerOpcode is an enumeration encoding the supported Ledger opcodes.

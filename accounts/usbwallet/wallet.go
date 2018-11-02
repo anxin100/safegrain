@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/meitu/go-ethereum"
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/log"
+	ethereum "github.com/safegrain"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/log"
 	"github.com/karalabe/hid"
 )
 

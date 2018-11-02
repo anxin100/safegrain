@@ -24,14 +24,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/mclock"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/crypto/sha3"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/p2p/nat"
-	"github.com/meitu/go-ethereum/p2p/netutil"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/mclock"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/crypto/sha3"
+	"github.com/safegrain/log"
+	"github.com/safegrain/p2p/nat"
+	"github.com/safegrain/p2p/netutil"
+	"github.com/safegrain/rlp"
 )
 
 var (

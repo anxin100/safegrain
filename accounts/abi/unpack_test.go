@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common"
+	"github.com/safegrain/common"
 )
 
 type unpackTest struct {

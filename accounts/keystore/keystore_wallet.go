@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/meitu/go-ethereum"
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/core/types"
+	ethereum "github.com/safegrain"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

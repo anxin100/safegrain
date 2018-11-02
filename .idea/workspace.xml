@@ -1,14 +1,549 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e19422a-91e8-4303-b880-cac6e6b787c6" name="Default" comment="">
+    <list default="true" id="aff215bf-9885-421c-b51e-8e90305f7ba2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/go-ethereum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/abi_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/abi_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/backend.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/backends/simulated.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/backends/simulated.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/bind.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/bind.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/bind_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/bind_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/util_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/event.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/event.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/event_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/event_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/method.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/method.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/numbers.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/numbers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/pack.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/pack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/pack_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/pack_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/type_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/unpack.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/unpack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/unpack_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/unpack_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/accounts.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/accounts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/account_cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/account_cache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/account_cache_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/account_cache_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/file_cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/file_cache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/key.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/key.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/keystore.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/keystore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/keystore_passphrase.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/keystore_passphrase.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/keystore_passphrase_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/keystore_passphrase_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/keystore_plain.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/keystore_plain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/keystore_plain_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/keystore_plain_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/keystore_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/keystore_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/keystore_wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/keystore_wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/presale.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/presale.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/keystore/watch.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/keystore/watch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/usbwallet/hub.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/usbwallet/hub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/usbwallet/ledger.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/usbwallet/ledger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/usbwallet/trezor.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/usbwallet/trezor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/usbwallet/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/usbwallet/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmt/bmt_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/bmt/bmt_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ci.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/ci.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/abigen/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/abigen/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/bootnode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/bootnode/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/evm/compiler.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/evm/compiler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/evm/disasm.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/evm/disasm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/evm/internal/compiler/compiler.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/evm/internal/compiler/compiler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/evm/json_logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/evm/json_logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/evm/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/evm/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/evm/runner.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/evm/runner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/evm/staterunner.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/evm/staterunner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/faucet/faucet.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/faucet/faucet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/accountcmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/accountcmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/accountcmd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/accountcmd_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/bugcmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/bugcmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/chaincmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/chaincmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/consolecmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/consolecmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/consolecmd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/consolecmd_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/dao_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/dao_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/misccmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/misccmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/monitorcmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/monitorcmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/run_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/run_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/geth/usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/geth/usage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/p2psim/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/p2psim/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/module.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/module.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/module_dashboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/module_dashboard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/module_ethstats.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/module_ethstats.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/module_faucet.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/module_faucet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/module_nginx.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/module_nginx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/module_node.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/module_node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/puppeth.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/puppeth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/ssh.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/ssh.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_dashboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_dashboard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_ethstats.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_ethstats.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_faucet.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_faucet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_genesis.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_genesis.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_intro.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_intro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_netstats.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_netstats.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_network.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_network.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_nginx.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_nginx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_node.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/rlpdump/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/rlpdump/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/swarm/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/swarm/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/swarm/hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/swarm/hash.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/swarm/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/swarm/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/swarm/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/swarm/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/swarm/manifest.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/swarm/manifest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/swarm/run_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/swarm/run_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/swarm/upload.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/swarm/upload.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/utils/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/utils/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/utils/customflags.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/utils/customflags.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/utils/flags.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/utils/flags.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/wnode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/wnode/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/bitutil/compress_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/bitutil/compress_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/debug.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/debug.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/hexutil/json_example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/hexutil/json_example_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/math/big_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/math/big_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/number/int.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/number/int.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/number/uint_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/number/uint_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compression/rle/read_write.go" beforeDir="false" afterPath="$PROJECT_DIR$/compression/rle/read_write.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/clique/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/clique/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/clique/clique.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/clique/clique.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/clique/snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/clique/snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/clique/snapshot_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/clique/snapshot_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consensus/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/consensus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dpos/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/dpos/api.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consensus/dpos/dpos.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/dpos/dpos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dpos/dpos_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/dpos/dpos_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dpos/epoch_context.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/dpos/epoch_context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dpos/epoch_context_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/dpos/epoch_context_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/algorithm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/algorithm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/algorithm_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/consensus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/consensus_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/consensus_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consensus/ethash/ethash.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/ethash.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/jsre/deps/web3.js" beforeDir="false" afterPath="$PROJECT_DIR$/internal/jsre/deps/web3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/ethash_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/ethash_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/sealer.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/sealer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/misc/dao.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/misc/dao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/misc/forks.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/misc/forks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/bridge.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/bridge.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/console.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/console.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/console_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/console_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/chequebook/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/chequebook/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/chequebook/cheque.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/chequebook/cheque.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/chequebook/cheque_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/chequebook/cheque_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/chequebook/contract/chequebook.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/chequebook/contract/chequebook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/chequebook/gencode.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/chequebook/gencode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/ens/contract/ens.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ens/contract/ens.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/ens/ens.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ens/ens.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/ens/ens_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ens/ens_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/release/contract.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/release/contract.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/release/contract_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/release/contract_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/release/release.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/release/release.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/asm/asm.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/asm/asm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/asm/compiler.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/asm/compiler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bench_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/bench_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/block_validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/block_validator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/block_validator_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/block_validator_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/blockchain_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/blocks.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blocks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bloombits/generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/bloombits/generator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bloombits/generator_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/bloombits/generator_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bloombits/matcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/bloombits/matcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bloombits/matcher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/bloombits/matcher_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/chain_indexer.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/chain_indexer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/chain_indexer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/chain_indexer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/chain_makers.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/chain_makers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/chain_makers_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/chain_makers_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/dao_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/dao_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/database_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/database_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/database_util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/database_util_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/events.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/events.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/evm.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/evm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/gen_genesis.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/gen_genesis.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/gen_genesis_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/gen_genesis_account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/genesis.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/genesis.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/genesis_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/genesis_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/headerchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/headerchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/helper_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/helper_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mkalloc.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/mkalloc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/dump.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/dump.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/iterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/iterator_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/iterator_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/journal.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/journal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/managed_state.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/managed_state.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/managed_state_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/managed_state_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/state_object.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/state_object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/state_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/state_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/statedb.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/statedb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/statedb_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/statedb_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/sync_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/sync_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state_processor.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state_processor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state_transition.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state_transition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tx_journal.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/tx_journal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tx_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/tx_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tx_list_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/tx_list_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tx_pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/tx_pool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tx_pool_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/tx_pool_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/block_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/block_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/bloom9.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/bloom9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/bloom9_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/bloom9_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/derive_sha.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/derive_sha.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/dpos_context.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/dpos_context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/dpos_context_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/dpos_context_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/gen_header_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/gen_header_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/gen_log_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/gen_log_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/gen_receipt_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/gen_receipt_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/gen_tx_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/gen_tx_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/log_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/log_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/receipt.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/receipt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/transaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/transaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/transaction_signing.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/transaction_signing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/transaction_signing_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/transaction_signing_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/transaction_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/transaction_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/analysis.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/analysis.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/contract.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/contract.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/contracts.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/contracts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/contracts_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/contracts_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/evm.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/evm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/gas.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/gas.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/gas_table.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/gas_table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/gen_structlog.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/gen_structlog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/instructions.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/instructions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/instructions_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/instructions_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/interpreter.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/interpreter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/jump_table.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/jump_table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/logger_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/logger_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/memory_table.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/memory_table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/noop.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/noop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/runtime/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/runtime/env.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/runtime/runtime.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/runtime/runtime.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/runtime/runtime_example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/runtime/runtime_example_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/runtime/runtime_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/runtime/runtime_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/stack_table.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/stack_table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/vm_jit.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/vm_jit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/crypto.go" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/crypto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/crypto_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/crypto_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/ecies/ecies_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/ecies/ecies_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/ecies/params.go" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/ecies/params.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/secp256k1/curve.go" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/secp256k1/curve.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/secp256k1/secp256_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/secp256k1/secp256_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/signature_cgo.go" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/signature_cgo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/dashboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/dashboard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/api_backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/api_backend.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/api_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/api_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/backend.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/bind.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/bind.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/bloombits.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/bloombits.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/db_upgrade.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/db_upgrade.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/downloader/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/downloader/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/downloader/downloader.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/downloader/downloader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/downloader/downloader_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/downloader/downloader_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/downloader/fakepeer.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/downloader/fakepeer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/downloader/metrics.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/downloader/metrics.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/downloader/peer.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/downloader/peer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/downloader/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/downloader/queue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/downloader/statesync.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/downloader/statesync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/downloader/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/downloader/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/fetcher/fetcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/fetcher/fetcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/fetcher/fetcher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/fetcher/fetcher_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/fetcher/metrics.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/fetcher/metrics.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/filters/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/filters/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/filters/api_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/filters/api_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/filters/bench_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/filters/bench_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/filters/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/filters/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/filters/filter_system.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/filters/filter_system.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/filters/filter_system_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/filters/filter_system_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/filters/filter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/filters/filter_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/gasprice/gasprice.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/gasprice/gasprice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/gen_config.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/gen_config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/handler_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/handler_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/helper_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/helper_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/metrics.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/metrics.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/peer.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/peer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/protocol.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/protocol.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/protocol_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/protocol_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/sync_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/sync_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethclient/ethclient.go" beforeDir="false" afterPath="$PROJECT_DIR$/ethclient/ethclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethclient/ethclient_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ethclient/ethclient_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethclient/signer.go" beforeDir="false" afterPath="$PROJECT_DIR$/ethclient/signer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethdb/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/ethdb/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethdb/database_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ethdb/database_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethdb/memory_database.go" beforeDir="false" afterPath="$PROJECT_DIR$/ethdb/memory_database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethstats/ethstats.go" beforeDir="false" afterPath="$PROJECT_DIR$/ethstats/ethstats.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event/example_feed_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/event/example_feed_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event/example_scope_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/event/example_scope_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event/example_subscription_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/event/example_subscription_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event/subscription.go" beforeDir="false" afterPath="$PROJECT_DIR$/event/subscription.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/build/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/build/env.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/debug/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/debug/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/debug/flags.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/debug/flags.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/debug/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/debug/trace.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/ethapi/addrlock.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ethapi/addrlock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/ethapi/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ethapi/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/ethapi/api_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ethapi/api_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/ethapi/backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ethapi/backend.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/ethapi/tracer.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ethapi/tracer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/ethapi/tracer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ethapi/tracer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/guide/guide_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/guide/guide_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/jsre/jsre.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/jsre/jsre.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/api_backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/api_backend.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/backend.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/bloombits.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/bloombits.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/fetcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/fetcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/flowcontrol/control.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/flowcontrol/control.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/flowcontrol/manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/flowcontrol/manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/handler_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/handler_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/helper_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/helper_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/metrics.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/metrics.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/odr.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/odr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/odr_requests.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/odr_requests.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/odr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/odr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/peer.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/peer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/protocol.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/protocol.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/request_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/request_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/retrieve.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/retrieve.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/serverpool.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/serverpool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les/txrelay.go" beforeDir="false" afterPath="$PROJECT_DIR$/les/txrelay.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/lightchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/lightchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/lightchain_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/lightchain_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/nodeset.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/nodeset.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/odr.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/odr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/odr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/odr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/odr_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/odr_util.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light/postprocess.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/postprocess.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/trie_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/trie_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light/txpool.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/txpool.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/html/entity.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/html/entity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/txpool_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/txpool_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/format.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metrics/metrics.go" beforeDir="false" afterPath="$PROJECT_DIR$/metrics/metrics.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/agent.go" beforeDir="false" afterPath="$PROJECT_DIR$/miner/agent.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/miner.go" beforeDir="false" afterPath="$PROJECT_DIR$/miner/miner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/remote_agent.go" beforeDir="false" afterPath="$PROJECT_DIR$/miner/remote_agent.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/unconfirmed.go" beforeDir="false" afterPath="$PROJECT_DIR$/miner/unconfirmed.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/unconfirmed_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/miner/unconfirmed_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/worker.go" beforeDir="false" afterPath="$PROJECT_DIR$/miner/worker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/accounts.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/accounts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/big.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/big.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/bind.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/bind.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/discover.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/discover.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ethclient.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ethclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ethereum.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ethereum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/geth.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/geth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/p2p.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/p2p.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/params.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/params.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/vm.go" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/vm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/config_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/config_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/defaults.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/defaults.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/node_example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/node_example_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/node_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/node_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/utils_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/utils_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/dial.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/dial.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/dial_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/dial_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discover/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discover/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discover/node_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/node_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discover/ntp.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/ntp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discover/table.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discover/table_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/table_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discover/udp.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/udp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discover/udp_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/udp_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/net.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/net.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/net_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/net_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/node_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/node_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/ntp.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/ntp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/sim_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/sim_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/table.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/table_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/table_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/ticket.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/ticket.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/topic.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/topic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/topic_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/topic_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/udp.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/udp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discv5/udp_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discv5/udp_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/metrics.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/metrics.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/nat/nat.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/nat/nat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/peer.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/peer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/protocol.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/protocol.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/rlpx.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/rlpx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/rlpx_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/rlpx_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/server_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/server_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/adapters/docker.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/adapters/docker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/adapters/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/adapters/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/adapters/inproc.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/adapters/inproc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/adapters/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/adapters/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/examples/ping-pong.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/examples/ping-pong.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/http.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/http_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/http_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/network.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/network.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/network_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/network_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/simulations/simulation.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/simulations/simulation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/dao.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/dao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/client_example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/client_example_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/client_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/ipc.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/ipc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/json.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/types_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/types_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/websocket.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/websocket.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/api_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/api_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/client/client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/client/client_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/config_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/config_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/filesystem.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/filesystem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/filesystem_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/filesystem_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/http/error.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/http/error.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/http/error_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/http/error_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/http/roundtripper.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/http/roundtripper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/http/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/http/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/http/server_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/http/server_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/http/templates.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/http/templates.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/manifest.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/manifest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/manifest_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/manifest_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/api/testapi.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/api/testapi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/fuse/fuse_file.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/fuse/fuse_file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/fuse/swarmfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/fuse/swarmfs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/fuse/swarmfs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/fuse/swarmfs_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/fuse/swarmfs_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/fuse/swarmfs_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/fuse/swarmfs_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/fuse/swarmfs_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/depo.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/depo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/forwarding.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/forwarding.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/hive.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/hive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/kademlia/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/kademlia/address.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/kademlia/address_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/kademlia/address_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/kademlia/kaddb.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/kademlia/kaddb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/kademlia/kademlia.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/kademlia/kademlia.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/messages.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/messages.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/protocol.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/protocol.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/syncdb.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/syncdb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/syncdb_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/syncdb_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/network/syncer.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/network/syncer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/services/swap/swap.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/services/swap/swap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/services/swap/swap/swap.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/services/swap/swap/swap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/services/swap/swap/swap_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/services/swap/swap/swap_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/storage/chunker_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/storage/chunker_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/storage/common_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/storage/common_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/storage/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/storage/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/storage/dbstore.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/storage/dbstore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/storage/dbstore_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/storage/dbstore_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/storage/dpa.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/storage/dpa.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/storage/memstore.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/storage/memstore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/storage/netstore.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/storage/netstore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/storage/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/storage/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/swarm.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/swarm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swarm/testutil/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/swarm/testutil/http.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/block_test_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/block_test_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/difficulty_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/difficulty_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/difficulty_test_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/difficulty_test_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/gen_btheader.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/gen_btheader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/gen_difficultytest.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/gen_difficultytest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/gen_stenv.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/gen_stenv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/gen_sttransaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/gen_sttransaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/gen_tttransaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/gen_tttransaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/gen_vmexec.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/gen_vmexec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/init_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/init_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/rlp_test_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/rlp_test_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/state_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/state_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/state_test_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/state_test_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transaction_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/transaction_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transaction_test_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/transaction_test_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/vm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vm_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/vm_test_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vm_test_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/hasher.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/hasher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/iterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/iterator_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/iterator_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/proof.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/proof.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/proof_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/proof_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/secure_trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/secure_trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/secure_trie_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/secure_trie_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/sync_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/sync_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/trie_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/trie_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/mailserver/mailserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/mailserver/mailserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/mailserver/server_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/mailserver/server_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/shhclient/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/shhclient/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/envelope.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/envelope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/envelope_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/envelope_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/message_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/message_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/peer.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/peer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/peer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/peer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/topic.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/topic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/whisper.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/whisper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv2/whisper_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv2/whisper_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/benchmarks_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/benchmarks_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/envelope.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/envelope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/filter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/filter_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/gen_criteria_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/gen_criteria_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/gen_message_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/gen_message_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/gen_newmessage_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/gen_newmessage_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/message_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/message_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/peer.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/peer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/peer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/peer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/topic.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/topic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/whisper.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/whisper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv5/whisper_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv5/whisper_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/benchmarks_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/benchmarks_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/envelope.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/envelope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/filter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/filter_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/gen_criteria_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/gen_criteria_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/gen_message_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/gen_message_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/gen_newmessage_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/gen_newmessage_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/message_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/message_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/peer.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/peer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/peer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/peer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/topic.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/topic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/whisper.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/whisper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whisper/whisperv6/whisper_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/whisper/whisperv6/whisper_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,83 +554,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dpos.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dpos.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consensus/dpos/dpos.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="358" column="36" selection-start-line="358" selection-start-column="28" selection-end-line="358" selection-end-column="36" />
+            <state relative-caret-position="354">
+              <caret line="427" column="31" selection-start-line="427" selection-start-column="31" selection-end-line="427" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consensus.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consensus/ethash/consensus.go">
+      <file leaf-file-name="ethash.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/ethash/ethash.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="550" column="15" lean-forward="true" selection-start-line="550" selection-start-column="15" selection-end-line="550" selection-end-column="15" />
+            <state relative-caret-position="282">
+              <caret line="597" column="1" lean-forward="true" selection-start-line="595" selection-end-line="597" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="state_processor.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/state_processor.go">
+      <file leaf-file-name="genesis.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/genesis.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1786">
-              <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+            <state relative-caret-position="346">
+              <caret line="320" column="35" selection-start-line="320" selection-start-column="35" selection-end-line="320" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transaction.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/types/transaction.go">
+      <file leaf-file-name="config.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/params/config.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="376">
+              <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tx_pool.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/tx_pool.go">
+      <file leaf-file-name="blockchain.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/blockchain.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1289">
-              <caret line="565" column="44" selection-start-line="565" selection-start-column="38" selection-end-line="565" selection-end-column="44" />
+            <state relative-caret-position="-899">
+              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eth/api.go">
+      <file leaf-file-name="web3ext.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/internal/web3ext/web3ext.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="431" column="32" selection-start-line="431" selection-start-column="32" selection-end-line="431" selection-end-column="32" />
+            <state relative-caret-position="557">
+              <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="types.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/types.go">
+        <entry file="file://$PROJECT_DIR$/../meitu/go-ethereum/common/types.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evm.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/vm/evm.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evm.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/evm.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="145" column="20" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -104,40 +621,17 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>StringToAddress</find>
+      <find>SGT</find>
+      <find>web3</find>
+      <find>meitu</find>
+      <find>meitu/go-ethereum</find>
       <find>GetValidators</find>
-      <find>sendTransaction</find>
-      <find>eth_mining</find>
-      <find>Dpos</find>
-      <find>initGenesisDposContext</find>
-      <find>mintCntTrie</find>
-      <find>NewTransaction</find>
-      <find>Delegate</find>
-      <find>applyDposMessage</find>
-      <find>countVotes</find>
-      <find>lookupValidator</find>
-      <find>PrevSlot</find>
-      <find>Accounts</find>
-      <find>State</find>
-      <find>DumpAccount</find>
-      <find>checkDeadline</find>
-      <find>apply</find>
-      <find>UnDelegate</find>
-      <find>createNewWork</find>
-      <find>AccumulateRewards</find>
-      <find>ApplyTransaction</find>
-      <find>Process</find>
-      <find>ValidateState</find>
-      <find>Coinbase</find>
-      <find>ErrGasLimit</find>
-      <find>validateTx</find>
-      <find>ETH</find>
-      <find>GMT</find>
-      <find>Seal</find>
-      <find>wei</find>
+      <find>dposContext</find>
     </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
+    <replaceStrings>
+      <replace>safegrain</replace>
+    </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.9.2/libexec" />
   <component name="Git.Settings">
@@ -146,10 +640,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/consensus/consensus.go" />
-        <option value="$PROJECT_DIR$/consensus/ethash/ethash.go" />
-        <option value="$PROJECT_DIR$/eth/api.go" />
-        <option value="$PROJECT_DIR$/eth/backend.go" />
+        <option value="$PROJECT_DIR$/params/config.go" />
+        <option value="$PROJECT_DIR$/core/blockchain.go" />
         <option value="$PROJECT_DIR$/consensus/dpos/dpos.go" />
       </list>
     </option>
@@ -178,29 +670,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="go-ethereum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-ethereum" type="462c0819:PsiDirectoryNode" />
+              <item name="safegrain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safegrain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="go-ethereum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-ethereum" type="462c0819:PsiDirectoryNode" />
+              <item name="safegrain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safegrain" type="462c0819:PsiDirectoryNode" />
               <item name="consensus" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="go-ethereum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-ethereum" type="462c0819:PsiDirectoryNode" />
+              <item name="safegrain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safegrain" type="462c0819:PsiDirectoryNode" />
               <item name="consensus" type="462c0819:PsiDirectoryNode" />
               <item name="dpos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-ethereum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-ethereum" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-ethereum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-ethereum" type="462c0819:PsiDirectoryNode" />
-              <item name="miner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,6 +696,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -232,15 +715,14 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="meitu" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="go-ethereum" />
+    <configuration name="safegrain" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="safegrain" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/" />
-      <package value="github.com/meitu/go-ethereum" />
+      <package value="github.com/safegrain" />
       <directory value="$PROJECT_DIR$/cmd/geth" />
-      <output_directory value="$USER_HOME$/Documents/meitu" />
       <option name="run" value="false" />
     </configuration>
   </component>
@@ -254,16 +736,16 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29144385" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -275,346 +757,59 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/api.go">
+    <entry file="file://$PROJECT_DIR$/../meitu/go-ethereum/params/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4992" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/service.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-957" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/types/dpos_context_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="167" column="31" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/clique/api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eth/api_backend.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ethstats/ethstats.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="117" column="15" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/blockchain_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/ethash/ethash.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="595" column="30" selection-start-line="595" selection-start-column="17" selection-end-line="595" selection-end-column="30" />
-          <folding>
-            <element signature="e#881#1203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="214" column="17" selection-start-line="214" selection-start-column="17" selection-end-line="214" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/console.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="263" column="49" selection-start-line="263" selection-start-column="40" selection-end-line="263" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internal/jsre/deps/deps.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internal/ethapi/addrlock.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internal/ethapi/api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7593" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internal/ethapi/backend.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eth/backend.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="285" column="1" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
-          <folding>
-            <element signature="e#855#1830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internal/web3ext/web3ext.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="267" column="4" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internal/jsre/deps/web3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12455">
-          <caret line="4222" column="39" lean-forward="true" selection-start-line="4222" selection-start-column="39" selection-end-line="4222" selection-end-column="39" />
+        <state relative-caret-position="211">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/genesis.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="348" column="19" lean-forward="true" selection-start-line="348" selection-start-column="19" selection-end-line="348" selection-end-column="19" />
+        <state relative-caret-position="346">
+          <caret line="320" column="35" selection-start-line="320" selection-start-column="35" selection-end-line="320" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trie/trie.go">
+    <entry file="file://$PROJECT_DIR$/../meitu/go-ethereum/common/types.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2224">
-          <caret line="239" column="15" selection-start-line="239" selection-start-column="15" selection-end-line="239" selection-end-column="15" />
+        <state relative-caret-position="252">
+          <caret line="145" column="20" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/web3ext/web3ext.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/params/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3222">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="376">
+          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/state/dump.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/evm/staterunner.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/state/state_object.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/state/database.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vm/interface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/state_transition.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/manager.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/accounts.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2097" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/dpos/api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding>
-            <element signature="e#807#990#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miner/miner.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1082">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miner/unconfirmed.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1206" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/blockchain.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="365" column="22" selection-start-line="365" selection-start-column="22" selection-end-line="365" selection-end-column="22" />
+        <state relative-caret-position="-899">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/consensus.go">
+    <entry file="file://$PROJECT_DIR$/consensus/ethash/ethash.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/dpos/epoch_context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/types/dpos_context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="272" column="32" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vm/interpreter.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vm/evm.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miner/worker.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="589" column="28" selection-start-line="589" selection-start-column="28" selection-end-line="589" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/evm.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/state/statedb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="262" column="21" selection-start-line="262" selection-start-column="21" selection-end-line="262" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eth/api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="431" column="32" selection-start-line="431" selection-start-column="32" selection-end-line="431" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/types/block.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/tx_pool.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1289">
-          <caret line="565" column="44" selection-start-line="565" selection-start-column="38" selection-end-line="565" selection-end-column="44" />
+        <state relative-caret-position="282">
+          <caret line="597" column="1" lean-forward="true" selection-start-line="595" selection-end-line="597" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consensus/dpos/dpos.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="358" column="36" selection-start-line="358" selection-start-column="28" selection-end-line="358" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consensus/ethash/consensus.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="550" column="15" lean-forward="true" selection-start-line="550" selection-start-column="15" selection-end-line="550" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/types/transaction.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/golang.org/x/net/html/entity.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/state_processor.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+        <state relative-caret-position="354">
+          <caret line="427" column="31" selection-start-line="427" selection-start-column="31" selection-end-line="427" selection-end-column="31" />
         </state>
       </provider>
     </entry>

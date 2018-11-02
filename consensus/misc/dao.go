@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/params"
 )
 
 var (

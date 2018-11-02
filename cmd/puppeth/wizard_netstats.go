@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/core"
+	"github.com/safegrain/log"
 	"github.com/olekukonko/tablewriter"
 )
 

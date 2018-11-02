@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/p2p"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

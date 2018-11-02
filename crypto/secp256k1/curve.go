@@ -37,7 +37,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/meitu/go-ethereum/common/math"
+	"github.com/safegrain/common/math"
 )
 
 /*

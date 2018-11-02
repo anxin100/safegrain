@@ -27,10 +27,10 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/crypto/ecies"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/crypto/ecies"
+	"github.com/safegrain/log"
 )
 
 // Options specifies the exact way a message should be wrapped into an Envelope.

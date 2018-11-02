@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/internal/debug"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/event"
+	"github.com/safegrain/internal/debug"
+	"github.com/safegrain/log"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

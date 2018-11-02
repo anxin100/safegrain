@@ -25,11 +25,11 @@ import (
 	"os"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/discover"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/node"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/p2p/discover"
+	"github.com/safegrain/rpc"
 )
 
 // Node represents a node in a simulation network which is created by a

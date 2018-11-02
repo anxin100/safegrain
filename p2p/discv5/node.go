@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
 )
 
 // Node represents a host on the network.

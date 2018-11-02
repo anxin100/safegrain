@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/event"
+	"github.com/safegrain/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

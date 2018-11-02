@@ -25,9 +25,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/core/types"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/core/types"
 )
 
 // Tests that verification caches can be correctly generated.

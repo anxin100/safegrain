@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
+	"github.com/safegrain/common"
 )
 
 const Version = "1.0"

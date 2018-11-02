@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

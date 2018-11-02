@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/common/math"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/common/math"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/log"
+	"github.com/safegrain/params"
+	"github.com/safegrain/rlp"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

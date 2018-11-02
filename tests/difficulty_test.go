@@ -22,8 +22,8 @@ import (
 
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/params"
 )
 
 var (

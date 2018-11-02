@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/crypto"
 )
 
 // PublicWhisperAPI provides the whisper RPC service.

@@ -27,12 +27,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/logger"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/nat"
-	"github.com/meitu/go-ethereum/whisper"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/logger"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/p2p/nat"
+	"github.com/safegrain/whisper"
 )
 
 func main() {

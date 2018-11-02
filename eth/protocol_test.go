@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/eth/downloader"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/eth/downloader"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/rlp"
 )
 
 func init() {

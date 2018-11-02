@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/core/types"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/core/types"
 )
 
 func TestToTransaction(t *testing.T) {

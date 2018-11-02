@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/consensus"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/eth/downloader"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/common"
+	"github.com/safegrain/consensus"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/eth/downloader"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/event"
+	"github.com/safegrain/log"
+	"github.com/safegrain/params"
 )
 
 // Backend wraps all methods required for mining.

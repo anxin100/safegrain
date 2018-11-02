@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/discover"
-	"github.com/meitu/go-ethereum/p2p/simulations/adapters"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/event"
+	"github.com/safegrain/node"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/p2p/discover"
+	"github.com/safegrain/p2p/simulations/adapters"
+	"github.com/safegrain/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

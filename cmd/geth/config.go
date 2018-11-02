@@ -28,13 +28,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/meitu/go-ethereum/cmd/utils"
-	"github.com/meitu/go-ethereum/contracts/release"
-	"github.com/meitu/go-ethereum/dashboard"
-	"github.com/meitu/go-ethereum/eth"
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/params"
-	whisper "github.com/meitu/go-ethereum/whisper/whisperv5"
+	"github.com/safegrain/cmd/utils"
+	"github.com/safegrain/contracts/release"
+	"github.com/safegrain/dashboard"
+	"github.com/safegrain/eth"
+	"github.com/safegrain/node"
+	"github.com/safegrain/params"
+	whisper "github.com/safegrain/whisper/whisperv5"
 	"github.com/naoina/toml"
 )
 

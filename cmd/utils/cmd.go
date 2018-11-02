@@ -26,12 +26,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/internal/debug"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/internal/debug"
+	"github.com/safegrain/log"
+	"github.com/safegrain/node"
+	"github.com/safegrain/rlp"
 )
 
 const (

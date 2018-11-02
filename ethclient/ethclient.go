@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/meitu/go-ethereum"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/rlp"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/rlp"
+	"github.com/safegrain/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

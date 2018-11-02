@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/meitu/go-ethereum"
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/rpc"
+	ethereum "github.com/safegrain"
+	"github.com/safegrain/event"
+	"github.com/safegrain/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

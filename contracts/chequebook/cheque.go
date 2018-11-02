@@ -36,14 +36,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/accounts/abi/bind"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/contracts/chequebook/contract"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/swarm/services/swap/swap"
+	"github.com/safegrain/accounts/abi/bind"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/contracts/chequebook/contract"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/log"
+	"github.com/safegrain/swarm/services/swap/swap"
 )
 
 // TODO(zelig): watch peer solvency and notify of bouncing cheques

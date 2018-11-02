@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/eth"
-	"github.com/meitu/go-ethereum/eth/downloader"
-	"github.com/meitu/go-ethereum/ethclient"
-	"github.com/meitu/go-ethereum/ethstats"
-	"github.com/meitu/go-ethereum/les"
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/nat"
-	"github.com/meitu/go-ethereum/params"
-	whisper "github.com/meitu/go-ethereum/whisper/whisperv5"
+	"github.com/safegrain/core"
+	"github.com/safegrain/eth"
+	"github.com/safegrain/eth/downloader"
+	"github.com/safegrain/ethclient"
+	"github.com/safegrain/ethstats"
+	"github.com/safegrain/les"
+	"github.com/safegrain/node"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/p2p/nat"
+	"github.com/safegrain/params"
+	whisper "github.com/safegrain/whisper/whisperv5"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

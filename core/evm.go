@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/consensus"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/core/vm"
+	"github.com/safegrain/common"
+	"github.com/safegrain/consensus"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

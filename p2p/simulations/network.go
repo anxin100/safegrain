@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/discover"
-	"github.com/meitu/go-ethereum/p2p/simulations/adapters"
+	"github.com/safegrain/event"
+	"github.com/safegrain/log"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/p2p/discover"
+	"github.com/safegrain/p2p/simulations/adapters"
 )
 
 // NetworkConfig defines configuration options for starting a Network

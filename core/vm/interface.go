@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/types"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/log"
 	"github.com/rcrowley/go-metrics"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )

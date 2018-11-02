@@ -27,8 +27,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
 )
 
 type nullTransport struct{}

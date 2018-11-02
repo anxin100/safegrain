@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common/math"
-	"github.com/meitu/go-ethereum/consensus"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common/math"
+	"github.com/safegrain/consensus"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

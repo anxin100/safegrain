@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/meitu/go-ethereum/cmd/utils"
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/cmd/utils"
+	"github.com/safegrain/node"
+	"github.com/safegrain/rpc"
 	"github.com/gizak/termui"
 	"gopkg.in/urfave/cli.v1"
 )

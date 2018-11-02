@@ -19,9 +19,9 @@ package vm
 import (
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/math"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/math"
+	"github.com/safegrain/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

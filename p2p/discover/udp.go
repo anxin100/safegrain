@@ -25,11 +25,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/p2p/nat"
-	"github.com/meitu/go-ethereum/p2p/netutil"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/log"
+	"github.com/safegrain/p2p/nat"
+	"github.com/safegrain/p2p/netutil"
+	"github.com/safegrain/rlp"
 )
 
 const Version = 4

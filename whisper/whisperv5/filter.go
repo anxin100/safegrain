@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/log"
 )
 
 type Filter struct {

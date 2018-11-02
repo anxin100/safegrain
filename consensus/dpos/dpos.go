@@ -9,20 +9,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/consensus"
-	"github.com/meitu/go-ethereum/consensus/misc"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/crypto/sha3"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/rlp"
-	"github.com/meitu/go-ethereum/rpc"
-	"github.com/meitu/go-ethereum/trie"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/common"
+	"github.com/safegrain/consensus"
+	"github.com/safegrain/consensus/misc"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/crypto/sha3"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/log"
+	"github.com/safegrain/params"
+	"github.com/safegrain/rlp"
+	"github.com/safegrain/rpc"
+	"github.com/safegrain/trie"
 	lru "github.com/hashicorp/golang-lru"
 )
 
@@ -418,6 +418,15 @@ func (d *Dpos) CheckValidator(lastBlock *types.Block, now int64) error {
 		return ErrInvalidBlockValidator
 	}
 	return nil
+}
+
+func (d *Dpos) GetValidators(chain consensus.ChainReader) ([]common.Address, error)  {
+	dposContext, err := types.NewDposContext(d.db)
+	if err != nil {
+		return nil,err
+	}
+	dposContext.GetValidators()
+	return nil,nil
 }
 
 // Seal generates a new block for the given input block with the local miner's

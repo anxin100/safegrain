@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/meitu/go-ethereum/consensus/ethash"
-	"github.com/meitu/go-ethereum/core/vm"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/consensus/ethash"
+	"github.com/safegrain/core/vm"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

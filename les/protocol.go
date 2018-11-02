@@ -26,11 +26,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/crypto/secp256k1"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/crypto/secp256k1"
+	"github.com/safegrain/rlp"
 )
 
 // Constants to match up protocol versions and messages

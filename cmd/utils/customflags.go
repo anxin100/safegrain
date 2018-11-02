@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/meitu/go-ethereum/common/math"
+	"github.com/safegrain/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/common/math"
-	"github.com/meitu/go-ethereum/consensus/ethash"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/core/vm"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/common/math"
+	"github.com/safegrain/consensus/ethash"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/core/vm"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/params"
+	"github.com/safegrain/rlp"
 )
 
 // A BlockTest checks handling of entire blocks.

@@ -24,13 +24,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/metrics"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/log"
+	"github.com/safegrain/metrics"
+	"github.com/safegrain/params"
+	"github.com/safegrain/rlp"
 )
 
 // DatabaseReader wraps the Get method of a backing data store.

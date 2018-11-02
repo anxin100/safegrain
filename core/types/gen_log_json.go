@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
 )
 
 func (l Log) MarshalJSON() ([]byte, error) {

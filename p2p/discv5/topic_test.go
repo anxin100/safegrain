@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/mclock"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

@@ -20,13 +20,13 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/meitu/go-ethereum"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/internal/ethapi"
-	"github.com/meitu/go-ethereum/rlp"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/internal/ethapi"
+	"github.com/safegrain/rlp"
+	"github.com/safegrain/rpc"
 )
 
 // ContractBackend implements bind.ContractBackend with direct calls to Ethereum

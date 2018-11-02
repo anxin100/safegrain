@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/consensus/dpos"
-	"github.com/meitu/go-ethereum/consensus/ethash"
-	"github.com/meitu/go-ethereum/consensus/misc"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/core/vm"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/consensus/dpos"
+	"github.com/safegrain/consensus/ethash"
+	"github.com/safegrain/consensus/misc"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/core/vm"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/params"
 )
 
 // So we can deterministically seed different blockchains

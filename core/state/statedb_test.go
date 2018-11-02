@@ -30,9 +30,9 @@ import (
 
 	check "gopkg.in/check.v1"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/ethdb"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/ethdb"
 )
 
 // Tests that updating a state trie does not leak any database writes prior to

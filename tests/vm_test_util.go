@@ -22,15 +22,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/common/math"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/vm"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/common/math"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/vm"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/params"
 )
 
 // VMTest checks EVM execution without block or transaction context.

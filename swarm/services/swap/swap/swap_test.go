@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
+	"github.com/safegrain/common"
 )
 
 type testInPayment struct {

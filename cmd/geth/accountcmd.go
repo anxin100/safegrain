@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/accounts/keystore"
-	"github.com/meitu/go-ethereum/cmd/utils"
-	"github.com/meitu/go-ethereum/console"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/accounts/keystore"
+	"github.com/safegrain/cmd/utils"
+	"github.com/safegrain/console"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

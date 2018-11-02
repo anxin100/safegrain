@@ -22,10 +22,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/internal/ethapi"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/common"
+	"github.com/safegrain/internal/ethapi"
+	"github.com/safegrain/params"
+	"github.com/safegrain/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

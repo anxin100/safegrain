@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/discover"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/p2p/discover"
+	"github.com/safegrain/rpc"
 	"github.com/rcrowley/go-metrics"
 )
 

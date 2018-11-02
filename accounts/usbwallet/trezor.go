@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/accounts/usbwallet/internal/trezor"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/accounts/usbwallet/internal/trezor"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/log"
 	"github.com/golang/protobuf/proto"
 )
 

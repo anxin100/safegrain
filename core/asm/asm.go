@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/meitu/go-ethereum/core/vm"
+	"github.com/safegrain/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

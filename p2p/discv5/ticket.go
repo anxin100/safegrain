@@ -25,9 +25,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/mclock"
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/mclock"
+	"github.com/safegrain/crypto"
 )
 
 const (

@@ -26,10 +26,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/crypto/ecies"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/crypto/ecies"
+	"github.com/safegrain/log"
 )
 
 // Message represents an end-user data packet to transmit through the Whisper

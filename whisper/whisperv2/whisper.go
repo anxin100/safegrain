@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/crypto/ecies"
-	"github.com/meitu/go-ethereum/event/filter"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/crypto/ecies"
+	"github.com/safegrain/event/filter"
+	"github.com/safegrain/log"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/rpc"
 
 	"gopkg.in/fatih/set.v0"
 )

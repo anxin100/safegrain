@@ -20,8 +20,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/swarm/storage"
+	"github.com/safegrain/log"
+	"github.com/safegrain/swarm/storage"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 )

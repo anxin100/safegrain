@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/meitu/go-ethereum/accounts/keystore"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/accounts/keystore"
+	"github.com/safegrain/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

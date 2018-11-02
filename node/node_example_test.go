@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/node"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto/sha3"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/rlp"
-	"github.com/meitu/go-ethereum/trie"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto/sha3"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/rlp"
+	"github.com/safegrain/trie"
 )
 
 type DposContext struct {

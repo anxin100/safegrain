@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/metrics"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/event"
+	"github.com/safegrain/log"
+	"github.com/safegrain/metrics"
+	"github.com/safegrain/params"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/accounts/keystore"
-	"github.com/meitu/go-ethereum/accounts/usbwallet"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/discover"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/accounts/keystore"
+	"github.com/safegrain/accounts/usbwallet"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/log"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/p2p/discover"
 )
 
 const (

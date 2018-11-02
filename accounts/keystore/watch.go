@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/log"
 	"github.com/rjeczalik/notify"
 )
 

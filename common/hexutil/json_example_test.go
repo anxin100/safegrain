@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/meitu/go-ethereum/common/hexutil"
+	"github.com/safegrain/common/hexutil"
 )
 
 type MyType [5]byte

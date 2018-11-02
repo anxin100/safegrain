@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/bloombits"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/bloombits"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/event"
+	"github.com/safegrain/params"
+	"github.com/safegrain/rpc"
 )
 
 type testBackend struct {

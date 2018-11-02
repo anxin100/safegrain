@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/accounts/keystore"
-	"github.com/meitu/go-ethereum/core/types"
+	"github.com/safegrain/accounts/keystore"
+	"github.com/safegrain/core/types"
 )
 
 // Tests that the account management snippets work correctly.

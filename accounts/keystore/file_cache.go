@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/log"
 	set "gopkg.in/fatih/set.v0"
 )
 

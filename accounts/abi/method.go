@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain/crypto"
 )
 
 // Callable method given a `Name` and whether the method is a constant.

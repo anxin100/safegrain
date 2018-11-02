@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/rlp"
-	"github.com/meitu/go-ethereum/trie"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/rlp"
+	"github.com/safegrain/trie"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

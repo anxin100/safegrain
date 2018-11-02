@@ -24,9 +24,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/swarm/storage"
+	"github.com/safegrain/common"
+	"github.com/safegrain/log"
+	"github.com/safegrain/swarm/storage"
 )
 
 func testApi(t *testing.T, f func(*Api)) {

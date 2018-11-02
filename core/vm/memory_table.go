@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common/math"
+	"github.com/safegrain/common/math"
 )
 
 func memorySha3(stack *Stack) *big.Int {

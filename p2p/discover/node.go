@@ -30,9 +30,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/crypto/secp256k1"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/crypto/secp256k1"
 )
 
 const NodeIDBits = 512

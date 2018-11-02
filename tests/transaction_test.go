@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/params"
 )
 
 func TestTransaction(t *testing.T) {

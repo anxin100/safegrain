@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/meitu/go-ethereum/metrics"
+	"github.com/safegrain/metrics"
 )
 
 var (

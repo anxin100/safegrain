@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/safegrain/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

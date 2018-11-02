@@ -22,10 +22,10 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/ethdb"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/ethdb"
 )
 
 // NoOdr is the default context passed to an ODR capable function when the ODR

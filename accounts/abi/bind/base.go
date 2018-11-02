@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/meitu/go-ethereum"
-	"github.com/meitu/go-ethereum/accounts/abi"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain"
+	"github.com/safegrain/accounts/abi"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/crypto"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

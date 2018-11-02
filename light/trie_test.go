@@ -23,13 +23,13 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/meitu/go-ethereum/consensus/ethash"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/vm"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/trie"
+	"github.com/safegrain/consensus/ethash"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/vm"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/params"
+	"github.com/safegrain/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

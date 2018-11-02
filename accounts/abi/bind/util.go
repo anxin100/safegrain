@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

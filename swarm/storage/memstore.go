@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/log"
 )
 
 const (

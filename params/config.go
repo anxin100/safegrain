@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
+	"github.com/safegrain/common"
 )
 
 var (
@@ -29,7 +29,7 @@ var (
 
 var (
 	DposChainConfig = &ChainConfig{
-		ChainId:        big.NewInt(5),
+		ChainId:        big.NewInt(999999),
 		HomesteadBlock: big.NewInt(0),
 		DAOForkBlock:   nil,
 		DAOForkSupport: false,
@@ -39,7 +39,9 @@ var (
 		EIP158Block:    big.NewInt(0),
 		ByzantiumBlock: big.NewInt(0),
 
-		Dpos: &DposConfig{},
+		Dpos: &DposConfig{
+			Validators:genesisValidators(),
+		},
 	}
 	TestChainConfig          = &ChainConfig{big.NewInt(1), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), nil}
 	AllEthashProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), nil}
@@ -80,6 +82,22 @@ type CliqueConfig struct {
 // String implements the stringer interface, returning the consensus engine details.
 func (c *CliqueConfig) String() string {
 	return "clique"
+}
+
+func genesisValidators()  []common.Address {
+	var address = []string{
+		"0xcfe8a21254c59eb73dfaa933c5c6b8906333a215",
+		"0x00abe6c62d56b0d27e2e68c20456fd607bb7dfe1",
+		"0x3d53abc48c034d5485981ff24e9c92727d6a6984",
+		"0x8323fe8bc7363d04989b456c49ae0da2be2dec54",
+		"0x75ab36175dc3fe2cb19f6c82dd581f894a8ed899",
+	}
+	var commons = make([]common.Address,5)
+	for _,addressString := range address {
+		commonAddress := common.StringToAddress(addressString)
+		commons = append(commons, commonAddress)
+	}
+	return commons
 }
 
 // DposConfig is the consensus engine configs for delegated proof-of-stake based sealing.

@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain/common"
+	"github.com/safegrain/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

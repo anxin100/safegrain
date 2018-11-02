@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/meitu/go-ethereum/event"
+	"github.com/safegrain/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

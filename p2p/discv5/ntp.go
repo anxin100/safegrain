@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/log"
 )
 
 const (

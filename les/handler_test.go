@@ -23,17 +23,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/eth/downloader"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/light"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/rlp"
-	"github.com/meitu/go-ethereum/trie"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/crypto"
+	"github.com/safegrain/eth/downloader"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/light"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/params"
+	"github.com/safegrain/rlp"
+	"github.com/safegrain/trie"
 )
 
 func expectResponse(r p2p.MsgReader, msgcode, reqID, bv uint64, data interface{}) error {

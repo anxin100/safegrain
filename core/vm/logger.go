@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/hexutil"
-	"github.com/meitu/go-ethereum/common/math"
-	"github.com/meitu/go-ethereum/core/types"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/hexutil"
+	"github.com/safegrain/common/math"
+	"github.com/safegrain/core/types"
 )
 
 type Storage map[common.Hash]common.Hash

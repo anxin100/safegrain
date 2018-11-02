@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/log"
 )
 
 type brokenLimitedReader struct {

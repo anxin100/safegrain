@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/swarm/storage"
+	"github.com/safegrain/log"
+	"github.com/safegrain/swarm/storage"
 )
 
 // syncer parameters (global, not peer specific) default values

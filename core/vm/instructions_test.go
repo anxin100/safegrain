@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/common"
+	"github.com/safegrain/params"
 )
 
 func TestByteOp(t *testing.T) {

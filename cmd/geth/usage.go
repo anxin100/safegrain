@@ -24,7 +24,7 @@ import (
 
 	"strings"
 
-	"github.com/meitu/go-ethereum/cmd/utils"
+	"github.com/safegrain/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

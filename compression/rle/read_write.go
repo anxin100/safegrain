@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain/crypto"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/metrics"
+	"github.com/safegrain/log"
+	"github.com/safegrain/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

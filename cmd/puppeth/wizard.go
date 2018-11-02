@@ -29,9 +29,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core"
+	"github.com/safegrain/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

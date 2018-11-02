@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/accounts/keystore"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/eth"
-	"github.com/meitu/go-ethereum/eth/downloader"
-	"github.com/meitu/go-ethereum/ethclient"
-	"github.com/meitu/go-ethereum/ethstats"
-	"github.com/meitu/go-ethereum/les"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/discover"
-	"github.com/meitu/go-ethereum/p2p/discv5"
-	"github.com/meitu/go-ethereum/p2p/nat"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/accounts"
+	"github.com/safegrain/accounts/keystore"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/eth"
+	"github.com/safegrain/eth/downloader"
+	"github.com/safegrain/ethclient"
+	"github.com/safegrain/ethstats"
+	"github.com/safegrain/les"
+	"github.com/safegrain/log"
+	"github.com/safegrain/node"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/p2p/discover"
+	"github.com/safegrain/p2p/discv5"
+	"github.com/safegrain/p2p/nat"
+	"github.com/safegrain/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -443,7 +443,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case strings.HasPrefix(msg.URL, "https://www.facebook.com/"):
 			username, avatar, address, err = authFacebook(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/meitu/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/safegrain/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

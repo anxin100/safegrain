@@ -22,10 +22,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/consensus"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/common"
+	"github.com/safegrain/consensus"
+	"github.com/safegrain/core/types"
+	"github.com/safegrain/log"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

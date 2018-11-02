@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/common/mclock"
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/p2p/discover"
-	"github.com/meitu/go-ethereum/p2p/discv5"
-	"github.com/meitu/go-ethereum/p2p/nat"
-	"github.com/meitu/go-ethereum/p2p/netutil"
+	"github.com/safegrain/common"
+	"github.com/safegrain/common/mclock"
+	"github.com/safegrain/event"
+	"github.com/safegrain/log"
+	"github.com/safegrain/p2p/discover"
+	"github.com/safegrain/p2p/discv5"
+	"github.com/safegrain/p2p/nat"
+	"github.com/safegrain/p2p/netutil"
 )
 
 const (

@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/meitu/go-ethereum/crypto"
+	ethcrypto "github.com/safegrain/crypto"
 )
 
 var (

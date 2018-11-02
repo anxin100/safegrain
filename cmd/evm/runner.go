@@ -27,16 +27,16 @@ import (
 
 	goruntime "runtime"
 
-	"github.com/meitu/go-ethereum/cmd/evm/internal/compiler"
-	"github.com/meitu/go-ethereum/cmd/utils"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/vm"
-	"github.com/meitu/go-ethereum/core/vm/runtime"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/safegrain/cmd/evm/internal/compiler"
+	"github.com/safegrain/cmd/utils"
+	"github.com/safegrain/common"
+	"github.com/safegrain/core"
+	"github.com/safegrain/core/state"
+	"github.com/safegrain/core/vm"
+	"github.com/safegrain/core/vm/runtime"
+	"github.com/safegrain/ethdb"
+	"github.com/safegrain/log"
+	"github.com/safegrain/params"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

@@ -26,11 +26,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/swarm/api"
-	swarm "github.com/meitu/go-ethereum/swarm/api/client"
-	"github.com/meitu/go-ethereum/swarm/storage"
-	"github.com/meitu/go-ethereum/swarm/testutil"
+	"github.com/safegrain/common"
+	"github.com/safegrain/swarm/api"
+	swarm "github.com/safegrain/swarm/api/client"
+	"github.com/safegrain/swarm/storage"
+	"github.com/safegrain/swarm/testutil"
 )
 
 func TestBzzrGetPath(t *testing.T) {

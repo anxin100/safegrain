@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/meitu/go-ethereum/cmd/utils"
-	"github.com/meitu/go-ethereum/swarm/api"
-	swarm "github.com/meitu/go-ethereum/swarm/api/client"
+	"github.com/safegrain/cmd/utils"
+	"github.com/safegrain/swarm/api"
+	swarm "github.com/safegrain/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

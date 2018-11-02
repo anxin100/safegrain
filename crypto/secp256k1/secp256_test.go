@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common/math"
-	"github.com/meitu/go-ethereum/crypto/randentropy"
+	"github.com/safegrain/common/math"
+	"github.com/safegrain/crypto/randentropy"
 )
 
 const TestCount = 1000

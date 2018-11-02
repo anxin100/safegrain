@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/meitu/go-ethereum"
+import "github.com/safegrain"
 
 // Verify that Client implements the ethereum interfaces.
 var (

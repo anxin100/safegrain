@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/meitu/go-ethereum/accounts/abi/bind"
-	"github.com/meitu/go-ethereum/accounts/abi/bind/backends"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/safegrain/accounts/abi/bind"
+	"github.com/safegrain/accounts/abi/bind/backends"
+	"github.com/safegrain/core"
+	"github.com/safegrain/crypto"
 )
 
 var (

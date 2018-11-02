@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/meitu/go-ethereum/accounts/keystore"
-	"github.com/meitu/go-ethereum/internal/cmdtest"
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/rpc"
-	"github.com/meitu/go-ethereum/swarm"
+	"github.com/safegrain/accounts/keystore"
+	"github.com/safegrain/internal/cmdtest"
+	"github.com/safegrain/node"
+	"github.com/safegrain/p2p"
+	"github.com/safegrain/rpc"
+	"github.com/safegrain/swarm"
 )
 
 func init() {

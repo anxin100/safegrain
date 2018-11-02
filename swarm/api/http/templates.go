@@ -20,7 +20,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/meitu/go-ethereum/swarm/api"
+	"github.com/safegrain/swarm/api"
 )
 
 type htmlListData struct {

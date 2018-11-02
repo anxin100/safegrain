@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/log"
+	"github.com/safegrain/log"
 )
 
 type NodeData interface {
